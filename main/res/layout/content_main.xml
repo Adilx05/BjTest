@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:id="@+id/rakipEli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/tamamBt"
+        android:layout_marginTop="65dp"
+        android:text="Rakip Eli"
+        android:layout_alignLeft="@+id/tamamBt" />
+
+    <TextView
+        android:id="@+id/skorTablosu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:text="Skor :"
+        android:maxLines="999"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:id="@+id/bizimEl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/rakipEli"
+        android:layout_centerVertical="true"
+        android:text="Elimizdeki Kartlar"
+        android:layout_alignLeft="@+id/rakipEli" />
+
+    <TextView
+        android:id="@+id/elSonucu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/rakipEli"
+        android:layout_marginTop="154dp"
+        android:text="-"
+        android:layout_alignLeft="@+id/rakipEli" />
+
+    <Button
+        android:id="@+id/tamamBt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="175dp"
+        android:layout_marginStart="34dp"
+        android:text="Tamam"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="34dp" />
+
+    <Button
+        android:id="@+id/verBt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/tamamBt"
+        android:layout_marginEnd="115dp"
+        android:text="Ver"
+        android:layout_marginRight="115dp"
+        android:layout_alignParentRight="true" />
+
+    <Button
+        android:id="@+id/yenidenBaslat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="85dp"
+        android:text="Yeniden Başlat"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/zorlukTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Zorluk"
+        android:layout_alignParentLeft="true" />
+</RelativeLayout>

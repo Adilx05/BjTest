@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.kosezade.blackjackturkan.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Az Risk Al"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_settings2"
+        android:orderInCategory="100"
+        android:title="Orta Düzey Risk Al"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_settings3"
+        android:orderInCategory="100"
+        android:title="Çok Risk Al"
+        app:showAsAction="never" />
+</menu>
